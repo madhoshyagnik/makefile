@@ -1,6 +1,8 @@
 ## https://stackoverflow.com/questions/24777289/what-is-in-makefile
 
 
+#### The typical way to compile a gcc file is to g++ file.cc -o main, which creates an object file of name main.o, with makefile we can compile multiple .cc files to object files .o, then we can call the linker to link multiple object files to create an executable, which is .out in unix and .exe in windows.
+
 
 
 ``
