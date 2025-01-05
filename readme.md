@@ -3,7 +3,9 @@
 
 #### The typical way to compile a gcc file is to g++ file.cc -o main, which creates an executable file of name main.out whic can be executed using ./main.out, with makefile we can compile multiple .cc files to object files .o, then we can call the linker to link multiple object files to create an executable, which is .out in unix and .exe in windows. Same thing can be achieved using g++ command but it's tiresome to do it manually, also makefiles only build the executable if the source files are actually changed.
 
-
+``
+source files [.cc, .h] -----compiling---> object files [.o] (intermidiery files) ------linking-----> executable file [.out or .exe] (final product) 
+``
 
 ``
 ?= indicates to set the KDIR variable only if it's not set/doesn't have a value.
