@@ -3,7 +3,9 @@
 
 
 
-'''?= indicates to set the KDIR variable only if it's not set/doesn't have a value.
+'''
+
+?= indicates to set the KDIR variable only if it's not set/doesn't have a value.
 
 For example:
 
@@ -11,4 +13,6 @@ KDIR ?= "foo"
 KDIR ?= "bar"
 
 test:
-    echo $(KDIR)'''
+    echo $(KDIR)
+
+'''
